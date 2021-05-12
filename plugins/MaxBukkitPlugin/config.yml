@@ -1,0 +1,88 @@
+message: Hello and welcome
+setHome:
+  home:
+    c0a9bcb3-9aa9-3456-ac03-404b0ad21b86:
+      xPos: 3390.2920309468864
+      yPos: 62.5
+      zPos: -2485.015739547904
+      yaw: -23.72284
+      pitch: 14.549772
+      world: world
+    67985f10-d4a9-35bb-9121-5057bac02f5f:
+      xPos: 3435.5
+      yPos: 79.0000002
+      zPos: -2539.5
+      yaw: -331.87183
+      pitch: 16.650007
+      world: world
+    30e986ca-0935-3ff0-8e32-7139df57a288:
+      xPos: 3392.0835681854064
+      yPos: 62.5
+      zPos: -2482.413488467681
+      yaw: 116.37624
+      pitch: 13.050126
+      world: world
+    02de0b61-673f-353a-b34a-bf19b2c02082:
+      xPos: 3392.3011072818144
+      yPos: 62.5
+      zPos: -2483.907426521769
+      yaw: -344.92212
+      pitch: 32.099945
+      world: world
+    49545d93-4402-3e4a-be87-2a80f458ab52:
+      xPos: 3454.6859713065696
+      yPos: 74.0
+      zPos: -2544.57192173415
+      yaw: 92.30485
+      pitch: 36.00061
+      world: world
+    c2757396-a452-30c0-94be-d838c7a7ab60:
+      xPos: 3501.2289639840833
+      yPos: 76.0
+      zPos: -2570.3776573607634
+      yaw: -182.75763
+      pitch: 26.849997
+      world: world
+  death:
+    30e986ca-0935-3ff0-8e32-7139df57a288:
+      xPos: 3352.301535795581
+      yPos: 44.0
+      zPos: -2461.6667273054827
+      yaw: 71.806465
+      pitch: 14.700038
+      world: world
+    c0a9bcb3-9aa9-3456-ac03-404b0ad21b86:
+      xPos: 3389.699999988079
+      yPos: 69.88359831243447
+      zPos: -2395.300000011921
+      yaw: -231.02707
+      pitch: 81.74994
+      world: world
+    67985f10-d4a9-35bb-9121-5057bac02f5f:
+      xPos: 3469.4723185479174
+      yPos: 78.875
+      zPos: -2544.230410416947
+      yaw: 305.32834
+      pitch: 90.0
+      world: world
+    02de0b61-673f-353a-b34a-bf19b2c02082:
+      xPos: 3119.8101360383125
+      yPos: 62.073265126430115
+      zPos: -2553.278932690552
+      yaw: -352.6843
+      pitch: -8.549896
+      world: world
+    49545d93-4402-3e4a-be87-2a80f458ab52:
+      xPos: 3803.3964530498647
+      yPos: 44.67647087614427
+      zPos: -2636.376025290937
+      yaw: -258.84412
+      pitch: 16.200941
+      world: world
+    fa0a7b64-fa87-3e2a-a166-9ca8bffdb3b9:
+      xPos: 3438.3056964443185
+      yPos: 64.0
+      zPos: -2378.6858824904384
+      yaw: 98.30032
+      pitch: 13.65029
+      world: world

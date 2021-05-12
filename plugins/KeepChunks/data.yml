@@ -1,0 +1,107 @@
+# 
+#  _     _                   _______ _                 _          
+# (_)   | |                 (_______) |               | |  v1.6.5
+#  _____| |_____ _____ ____  _      | |__  _   _ ____ | |  _  ___ 
+# |  _   _) ___ | ___ |  _ \| |     |  _ \| | | |  _ \| |_/ )/___)
+# | |  \ \| ____| ____| |_| | |_____| | | | |_| | | | |  _ (|___ |
+# |_|   \_)_____)_____)  __/ \______)_| |_|____/|_| |_|_| \_|___/ 
+#                     |_|                                         
+# 
+# Copyright © 2015-2020 Geitenijs, all rights reserved.
+# Information & Support: https://www.spigotmc.org/resources/23307
+# 
+# Unless you know what you're doing, it's best not to touch this file. All configurable options can be found in config.yml
+chunks:
+- 208#-143#world
+- 210#-147#world
+- 220#-140#world
+- 208#-153#world
+- 223#-140#world
+- 209#-144#world
+- 213#-140#world
+- 209#-154#world
+- 224#-141#world
+- 210#-144#world
+- 216#-140#world
+- 208#-146#world
+- 224#-142#world
+- 214#-141#world
+- 226#-140#world
+- 225#-142#world
+- 209#-147#world
+- 210#-154#world
+- 223#-141#world
+- 221#-142#world
+- 215#-142#world
+- 211#-142#world
+- 208#-149#world
+- 210#-151#world
+- 219#-140#world
+- 217#-141#world
+- 210#-146#world
+- 208#-152#world
+- 226#-141#world
+- 212#-142#world
+- 208#-147#world
+- 214#-142#world
+- 209#-140#world
+- 208#-140#world
+- 222#-142#world
+- 218#-140#world
+- 216#-141#world
+- 209#-149#world
+- 210#-143#world
+- 209#-151#world
+- 209#-143#world
+- 213#-142#world
+- 210#-140#world
+- 225#-141#world
+- 215#-141#world
+- 209#-146#world
+- 223#-142#world
+- 217#-140#world
+- 212#-141#world
+- 210#-152#world
+- 226#-142#world
+- 220#-142#world
+- 216#-142#world
+- 210#-142#world
+- 222#-141#world
+- 218#-141#world
+- 211#-140#world
+- 221#-140#world
+- 219#-142#world
+- 208#-151#world
+- 208#-141#world
+- 208#-154#world
+- 210#-149#world
+- 208#-144#world
+- 212#-140#world
+- 209#-152#world
+- 209#-142#world
+- 225#-140#world
+- 222#-140#world
+- 220#-141#world
+- 209#-145#world
+- 213#-141#world
+- 210#-141#world
+- 215#-140#world
+- 218#-142#world
+- 209#-150#world
+- 208#-142#world
+- 210#-153#world
+- 209#-153#world
+- 209#-148#world
+- 211#-141#world
+- 209#-141#world
+- 224#-140#world
+- 214#-140#world
+- 210#-148#world
+- 219#-141#world
+- 217#-142#world
+- 208#-145#world
+- 208#-148#world
+- 221#-141#world
+- 210#-145#world
+- 208#-150#world
+- 210#-150#world

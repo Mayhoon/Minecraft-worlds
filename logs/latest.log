@@ -1,0 +1,443 @@
+[16:04:35] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[16:04:36] [Worker-Main-13/INFO]: Loaded 7 recipes
+[16:04:37] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[16:04:37] [Server thread/INFO]: Loading properties
+[16:04:37] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-0509002-6b95d59 (MC: 1.16.1) (Implementing API version 1.16.1-R0.1-SNAPSHOT)
+[16:04:37] [Server thread/INFO]: Debug logging is disabled
+[16:04:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:04:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:04:37] [Server thread/INFO]: Default game type: SURVIVAL
+[16:04:37] [Server thread/INFO]: Generating keypair
+[16:04:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:04:37] [Server thread/INFO]: Using default channel type
+[16:04:40] [Server thread/ERROR]: Could not load 'plugins\CK_AutoReplace.jar' in folder 'plugins': uses the space-character (0x20) in its name
+[16:04:40] [Server thread/ERROR]: Could not load 'plugins\invtweaks-1.15.2-2.0.8.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:160) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadPlugins(CraftServer.java:382) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:186) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[16:04:40] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:04:43] [Server thread/WARN]: Legacy plugin ChunkLoader v1.8.0 does not specify an api-version.
+[16:04:43] [Server thread/WARN]: Legacy plugin ReverseWool v1.0.0 does not specify an api-version.
+[16:04:43] [Server thread/WARN]: Legacy plugin AutoRefill v1.0 does not specify an api-version.
+[16:04:43] [Server thread/WARN]: Legacy plugin MaxBukkitPlugin v1.0.0 does not specify an api-version.
+[16:04:43] [Server thread/WARN]: Legacy plugin VariableTime v1.0.0 does not specify an api-version.
+[16:04:43] [Server thread/WARN]: Legacy plugin ActionHealth v3.4.8 does not specify an api-version.
+[16:04:43] [Server thread/INFO]: [MaxGeilesPlugin] Loading MaxGeilesPlugin v1.0
+[16:04:43] [Server thread/INFO]: [FastLeafDecay] Loading FastLeafDecay v1.0
+[16:04:43] [Server thread/INFO]: [ChunkLoader] Loading ChunkLoader v1.8.0
+[16:04:43] [Server thread/INFO]: [InvSort] Loading InvSort v1.2.0
+[16:04:43] [Server thread/INFO]: [ReverseWool] Loading ReverseWool v1.0.0
+[16:04:43] [Server thread/INFO]: [AutoRefill] Loading AutoRefill v1.0
+[16:04:43] [Server thread/INFO]: [KeepChunks] Loading KeepChunks v1.6.5
+[16:04:43] [Server thread/INFO]: [Chairs] Loading Chairs v7.0
+[16:04:43] [Server thread/INFO]: [Zenchantments] Loading Zenchantments v1.9.1
+[16:04:43] [Server thread/INFO]: [SinglePlayerSleep] Loading SinglePlayerSleep v1.13_2.13.42
+[16:04:43] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.6.1
+[16:04:43] [Server thread/INFO]: [MaxBukkitPlugin] Loading MaxBukkitPlugin v1.0.0
+[16:04:43] [Server thread/INFO]: [SimpleStack] Loading SimpleStack v1.2.1
+[16:04:43] [Server thread/INFO]: [VariableTime] Loading VariableTime v1.0.0
+[16:04:43] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[16:04:43] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.4.8
+[16:04:43] [Server thread/INFO]: [MendingEnchant] Loading MendingEnchant v1.4
+[16:04:43] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v6.4.0
+[16:04:43] [Server thread/INFO]: [Brewery] Loading Brewery v2.1.1
+[16:04:43] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.2.8-Release
+[16:04:43] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
+[16:04:43] [Server thread/INFO]: [Jobs] Loading Jobs v4.12.0
+[16:04:43] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.6.1
+[16:04:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[16:04:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:04:45] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[16:04:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:04:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:04:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:04:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:04:45] [Server thread/INFO]: Preparing level "world"
+[16:04:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:04:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:04:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:04:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:04:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:04:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:04:45] [Server thread/INFO]: View Distance: 10
+[16:04:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:04:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:04:45] [Server thread/INFO]: Mob Spawn Range: 6
+[16:04:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:04:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:04:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:04:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:04:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:04:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:04:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:04:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:04:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:04:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:04:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:04:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:04:45] [Server thread/INFO]: View Distance: 10
+[16:04:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:04:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:04:45] [Server thread/INFO]: Mob Spawn Range: 6
+[16:04:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:04:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:04:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:04:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:04:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:04:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:04:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:04:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:04:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:04:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:04:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:04:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:04:45] [Server thread/INFO]: View Distance: 10
+[16:04:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:04:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:04:45] [Server thread/INFO]: Mob Spawn Range: 6
+[16:04:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:04:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:04:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:04:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:04:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:04:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:04:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:04:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:48] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:49] [Server thread/INFO]: Preparing spawn area: 100%
+[16:04:49] [Server thread/INFO]: Preparing spawn area: 100%
+[16:04:49] [Server thread/INFO]: Time elapsed: 3626 ms
+[16:04:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:04:49] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:49] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:50] [Worker-Main-13/INFO]: Preparing spawn area: 85%
+[16:04:50] [Worker-Main-9/INFO]: Preparing spawn area: 85%
+[16:04:51] [Worker-Main-8/INFO]: Preparing spawn area: 95%
+[16:04:51] [Server thread/INFO]: Time elapsed: 2411 ms
+[16:04:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:04:52] [Server thread/INFO]: Preparing spawn area: 0%
+[16:04:52] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[16:04:52] [Server thread/INFO]: Time elapsed: 937 ms
+[16:04:52] [Server thread/INFO]: [MaxGeilesPlugin] Enabling MaxGeilesPlugin v1.0
+[16:04:54] [Server thread/WARN]: java.net.ConnectException: Connection refused: connect
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:591)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:540)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+[16:04:54] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1140)
+[16:04:54] [Server thread/WARN]: 	at packeins.Plugin.sendIp(Plugin.java:46)
+[16:04:54] [Server thread/WARN]: 	at packeins.Plugin.onEnable(Plugin.java:31)
+[16:04:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[16:04:54] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[16:04:54] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[16:04:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugin(CraftServer.java:493)
+[16:04:54] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugins(CraftServer.java:407)
+[16:04:54] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.loadWorld(MinecraftServer.java:438)
+[16:04:54] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:219)
+[16:04:54] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810)
+[16:04:54] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[16:04:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:835)
+[16:04:54] [Server thread/INFO]: [MaxGeilesPlugin] §bEnabled the best Plugin in the world!
+[16:04:54] [Server thread/INFO]: [FastLeafDecay] Enabling FastLeafDecay v1.0
+[16:04:54] [Server thread/INFO]: [ChunkLoader] Enabling ChunkLoader v1.8.0
+[16:04:55] [Server thread/INFO]: ChunkLoader : Version 1.8.0 enabled
+[16:04:55] [Server thread/INFO]: [InvSort] Enabling InvSort v1.2.0
+[16:04:55] [Server thread/INFO]: [ReverseWool] Enabling ReverseWool v1.0.0
+[16:04:55] [Server thread/INFO]: [AutoRefill] Enabling AutoRefill v1.0
+[16:04:55] [Server thread/INFO]: [AutoRefill] AutoRefill has been Enabled!
+[16:04:55] [Server thread/INFO]: [AutoRefill] By mmonkey loaded in 0.005 seconds.
+[16:04:55] [Server thread/INFO]: [KeepChunks] Enabling KeepChunks v1.6.5
+[16:04:55] [Server thread/INFO]: [m
+[16:04:55] [Server thread/INFO]: [0;32;22m _     _                  [0;30;1m _______ _                 _          [m
+[16:04:55] [Server thread/INFO]: [0;32;22m(_)   | |                 [0;30;1m(_______) |               | |  [0;32;22mv1.6.5[m
+[16:04:55] [Server thread/INFO]: [0;32;22m _____| |_____ _____ ____ [0;30;1m _      | |__  _   _ ____ | |  _  ___ [m
+[16:04:55] [Server thread/INFO]: [0;32;22m|  _   _) ___ | ___ |  _ \[0;30;1m| |     |  _ \| | | |  _ \| |_/ )/___)[m
+[16:04:55] [Server thread/INFO]: [0;32;22m| |  \ \| ____| ____| |_| [0;30;1m| |_____| | | | |_| | | | |  _ (|___ |[m
+[16:04:55] [Server thread/INFO]: [0;32;22m|_|   \_)_____)_____)  __/[0;30;1m \______)_| |_|____/|_| |_|_| \_|___/ [m
+[16:04:55] [Server thread/INFO]: [0;32;22m                    |_|   [0;30;1m                                      [m
+[16:04:55] [Server thread/INFO]: [m
+[16:04:55] [Server thread/INFO]: [KeepChunks] KeepChunks v1.6.5 has been enabled[m
+[16:04:55] [Server thread/INFO]: [Chairs] Enabling Chairs v7.0
+[16:04:55] [Server thread/INFO]: [Zenchantments] Enabling Zenchantments v1.9.1
+[16:04:55] [Server thread/INFO]: Zenchantments: Detected NMS version "v1_16_R1"
+[16:04:55] [Server thread/INFO]: [SinglePlayerSleep] Enabling SinglePlayerSleep v1.13_2.13.42
+[16:04:55] [Server thread/INFO]: SinglePlayerSleep 1.13_2.13.42 displaycancel=true
+[16:04:55] [Server thread/INFO]: **************************************
+[16:04:55] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.42 Loading...
+[16:04:55] [Server thread/INFO]: SinglePlayerSleep 1.13_2.13.42 plugins\SinglePlayerSleep\config.yml
+[16:04:55] [Server thread/INFO]: Checking for updates...[m
+[16:04:56] [Server thread/INFO]: SinglePlayerSleep New version available![m
+[16:04:56] [Server thread/INFO]: https://spigotmc.org/resources/68139[m
+[16:04:56] [Server thread/INFO]: SinglePlayerSleep 1.13_2.13.42 plugins\SinglePlayerSleep\permissions.yml
+[16:04:56] [Server thread/INFO]: **************************************
+[16:04:56] [Server thread/INFO]: SinglePlayerSleep v1.13_2.13.42 is ENABLED
+[16:04:56] [Server thread/INFO]: **************************************
+[16:04:56] [Server thread/INFO]: SinglePlayerSleep 1.13_2.13.42 MC vgit-Spigot-0509002-6b95d59 (MC: 1.16.1) debug=false in plugins\SinglePlayerSleep/config.yml
+[16:04:56] [Server thread/INFO]: [MaxBukkitPlugin] Enabling MaxBukkitPlugin v1.0.0
+[16:04:56] [Server thread/INFO]: [0;32;1m[MaxSethome] enabled[m
+[16:04:56] [Server thread/INFO]: [SimpleStack] Enabling SimpleStack v1.2.1
+[16:04:56] [Server thread/ERROR]: [SimpleStack] Plugin SimpleStack v1.2.1 has failed to register events for class com.mikedeejay2.simplestack.listeners.PrepareSmithingListener because org/bukkit/event/inventory/PrepareSmithingEvent does not exist.
+[16:04:56] [Server thread/INFO]: [VariableTime] Enabling VariableTime v1.0.0
+[16:04:56] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.4.8
+[16:04:56] [Server thread/INFO]: [MendingEnchant] Enabling MendingEnchant v1.4
+[16:04:56] [Server thread/INFO]: [MendingEnchant] is enabled !
+[16:04:56] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v6.4.0
+[16:04:56] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[16:04:56] [Server thread/INFO]: [SilkSpawners] Loading support for v1_16_R1
+[16:04:56] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled.
+[16:04:57] [Thread-17/ERROR]: [SilkSpawners] The updater could not access files at: E:\MinecraftServer\plugins\update
+[16:04:57] [Server thread/INFO]: [SilkSpawners] Error while auto updating: null
+[16:04:57] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[16:04:57] [Server thread/INFO]: [Brewery] Enabling Brewery v2.1.1
+[16:04:57] [Server thread/INFO]: [0;32;22m[Brewery] [0;37;1mBrewery enabled![m
+[16:04:57] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.2.8-Release
+[16:04:57] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
+[16:04:57] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[16:04:57] [Server thread/INFO]: [MarriageMaster] No compatible backpack plugin found.
+[16:04:57] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[16:04:57] [Server thread/INFO]: MarriageMaster-Connection-Pool - Starting...
+[16:04:57] [Server thread/INFO]: MarriageMaster-Connection-Pool - Start completed.
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Loading marriages ...
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Marriages loaded
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Loading priests ...
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Priests loaded
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Loading players ...
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Players loaded
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Writing marriages into cache ...
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Marriages loaded into cache
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Loading homes ...
+[16:04:57] [Thread-19/INFO]: [MarriageMaster] Homes loaded
+[16:04:58] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:04:58] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
+[16:04:58] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 829 items.
+[16:04:58] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[16:04:58] [Server thread/INFO]: [Jobs] Enabling Jobs v4.12.0
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] About to download a new update: SilkSpawners v7.0.0 --1.8 up to 1.16.5--
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 0% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 0% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 10% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 10% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 10% of 299786 bytes.
+[16:04:58] [Server thread/INFO]: Your server version is not compatible with this plugins version! Plugin will be disabled: v1_16
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 20% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 20% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 20% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 30% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 30% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 30% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 40% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 40% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 40% of 299786 bytes.
+[16:04:58] [Server thread/WARN]: java.lang.NullPointerException
+[16:04:58] [Server thread/WARN]: 	at com.gamingmesh.jobs.Jobs.onDisable(Jobs.java:923)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265)
+[16:04:58] [Server thread/WARN]: 	at com.gamingmesh.jobs.Jobs.onEnable(Jobs.java:828)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugin(CraftServer.java:493)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugins(CraftServer.java:407)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.loadWorld(MinecraftServer.java:438)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:219)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:835)
+[16:04:58] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled successfully.[m
+[16:04:58] [Server thread/WARN]: java.lang.ClassNotFoundException: com.gamingmesh.jobs.nmsUtil.v1_16
+[16:04:58] [Server thread/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:436)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:167)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:332)
+[16:04:58] [Server thread/WARN]: 	at com.gamingmesh.jobs.Jobs.onEnable(Jobs.java:818)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugin(CraftServer.java:493)
+[16:04:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugins(CraftServer.java:407)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.loadWorld(MinecraftServer.java:438)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:219)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810)
+[16:04:58] [Server thread/WARN]: 	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[16:04:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:835)
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 50% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 50% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 50% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 60% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 60% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 60% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 70% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 70% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 70% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 80% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 80% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 80% of 299786 bytes.
+[16:04:58] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.loadCustomPermissions(CraftServer.java:914) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.CraftServer.enablePlugins(CraftServer.java:420) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.loadWorld(MinecraftServer.java:438) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.DedicatedServer.init(DedicatedServer.java:219) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.v(MinecraftServer.java:810) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at net.minecraft.server.v1_16_R1.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 90% of 299786 bytes.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 90% of 299786 bytes.
+[16:04:58] [Server thread/INFO]: Done (13.141s)! For help, type "help"
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Downloading update: 100% of 299786 bytes.
+[16:04:58] [Craft Scheduler Thread - 1/WARN]: [ChunkLoader] Plugin ChunkLoader v1.8.0 generated an exception while executing task 9
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at nz.co.lolnet.james137137.mcstats.Metrics.postPlugin(Metrics.java:342) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics$1.run(Metrics.java:227) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[16:04:58] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[16:04:58] [Craft Scheduler Thread - 0/INFO]: [mcMMO] Cleaned backup files. Deleted 2 of 12 files.
+[16:04:58] [Thread-17/INFO]: [SilkSpawners] Finished updating.
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Start downloading update: 2.3.1-release
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 10% of 1.92 MiB
+[16:04:58] [Craft Scheduler Thread - 2/INFO]: [0;32;22m[Brewery] [0;37;1mBackground data loading complete.[m
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 20% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 30% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 40% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 50% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 60% of 1.92 MiB
+[16:04:58] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.7.2
+[16:04:58] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: https://dev.bukkit.org/projects/vault
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 70% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 80% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 90% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Downloading update: 100% of 1.92 MiB
+[16:04:58] [Thread-18/INFO]: [MarriageMaster] Finished updating.
+[16:05:05] [Craft Scheduler Thread - 3/INFO]: [0;32;22m[Brewery] [0;37;1mUpdate available for Brewery-2.1.1: Brewery v3.0[m
+[16:05:08] [Server thread/INFO]: [KeepChunks] A new release of KeepChunks, v1.6.7, is available! You are still on v1.6.5.[m
+[16:05:08] [Server thread/INFO]: [KeepChunks] To download this update, head over to https://www.spigotmc.org/resources/23307/updates in your browser.[m
+[16:05:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6071ms or 121 ticks behind
+[16:05:37] [User Authenticator #1/INFO]: UUID of player milchbroetchen25 is c0a9bcb3-9aa9-3456-ac03-404b0ad21b86
+[16:05:40] [Server thread/INFO]: milchbroetchen25[/127.0.0.1:63707] logged in with entity id 439 at ([world]3465.1962389521364, 68.875, -2479.3369053490896)
+[16:10:35] [User Authenticator #2/INFO]: UUID of player milchbroetchen25 is c0a9bcb3-9aa9-3456-ac03-404b0ad21b86
+[16:10:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29731ms or 594 ticks behind
+[16:10:44] [Server thread/INFO]: milchbroetchen25 lost connection: Disconnected
+[16:10:44] [Server thread/INFO]: milchbroetchen25 left the game
+[16:10:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@7498af12[id=c0a9bcb3-9aa9-3456-ac03-404b0ad21b86,name=milchbroetchen25,properties={},legacy=false] (/127.0.0.1:63785) lost connection: Disconnected
+[16:10:47] [User Authenticator #3/INFO]: UUID of player milchbroetchen25 is c0a9bcb3-9aa9-3456-ac03-404b0ad21b86
+[16:10:47] [Server thread/INFO]: milchbroetchen25[/127.0.0.1:63791] logged in with entity id 1306 at ([world]3435.8879199633125, 63.0, -2444.4756830636493)
+[16:17:29] [Server thread/INFO]: milchbroetchen25 lost connection: Disconnected
+[16:17:30] [Server thread/INFO]: milchbroetchen25 left the game
+[16:18:07] [User Authenticator #4/INFO]: UUID of player milchbroetchen25 is c0a9bcb3-9aa9-3456-ac03-404b0ad21b86
+[16:18:08] [Server thread/INFO]: milchbroetchen25[/127.0.0.1:63936] logged in with entity id 2000 at ([world]3462.300000011921, 68.0, -2469.0611448415666)
+[16:20:35] [Craft Scheduler Thread - 11/WARN]: [ChunkLoader] Plugin ChunkLoader v1.8.0 generated an exception while executing task 9
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at nz.co.lolnet.james137137.mcstats.Metrics.postPlugin(Metrics.java:342) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics$1.run(Metrics.java:227) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[16:21:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5880ms or 117 ticks behind
+[16:31:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5819ms or 116 ticks behind
+[16:35:46] [Craft Scheduler Thread - 16/WARN]: [ChunkLoader] Plugin ChunkLoader v1.8.0 generated an exception while executing task 9
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at nz.co.lolnet.james137137.mcstats.Metrics.postPlugin(Metrics.java:342) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics$1.run(Metrics.java:227) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[16:40:58] [Server thread/INFO]: milchbroetchen25 lost connection: Disconnected
+[16:41:04] [Server thread/INFO]: milchbroetchen25 left the game
+[16:41:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5240ms or 104 ticks behind
+[16:50:51] [Craft Scheduler Thread - 21/WARN]: [ChunkLoader] Plugin ChunkLoader v1.8.0 generated an exception while executing task 9
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at nz.co.lolnet.james137137.mcstats.Metrics.postPlugin(Metrics.java:342) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at nz.co.lolnet.james137137.mcstats.Metrics$1.run(Metrics.java:227) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at org.bukkit.craftbukkit.v1_16_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.16.1.jar:git-Spigot-0509002-6b95d59]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
